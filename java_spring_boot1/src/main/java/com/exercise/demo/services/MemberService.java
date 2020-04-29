@@ -42,4 +42,10 @@ public class MemberService {
       }
       return false;
    }
+
+   public int addition(int number1, int number2) {
+        // System.out.println(memberRepository.addition(1, 2));
+       System.out.println("asdf");
+       return memberRepository.addition(number1, number2);
+   }
 }
